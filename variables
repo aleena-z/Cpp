@@ -1,0 +1,6 @@
+#include <iostream>
+
+int main() {
+  int independence; // to store integer value
+  double num = 34.00; 
+}
