@@ -1,6 +1,37 @@
 #include <iostream>
+using namespace std;
 
 int main() {
-  int independence; // to store integer value
+
+// "Premitive Datatypes"
+  int value=12;
   double num = 34.00; 
+  char grade='A';
+  float temperature=98.6;
+  bool is_present= true;
+  void print_message(); // Function returning nothing
+
+// "Type Modifier"
+  long int numbers=443453;
+  short int=2;
+  unsigned int count = 100;
+
+// "Derived Datatypes"
+    int numbers[5]; // Array of 5 integers
+    int* ptr_to_age = &age; // Pointer to an integer variable
+
 }
+// "User Defined Datatypes"
+   // 1. Structure
+    struct Person {
+        string name;
+        int age;
+    };
+  // 2. Class
+    class Car {
+    public:
+        std::string model;
+        int year;
+    };
+  // 3. Enum
+    enum Day { Sunday, Monday, Tuesday };
